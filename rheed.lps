@@ -67,8 +67,8 @@
         <ComponentName Value="Form5"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
         <TopLine Value="25"/>
         <CursorPos X="66" Y="42"/>
         <UsageCount Value="20"/>
@@ -80,5 +80,4 @@
     </General>
     <JumpHistory HistoryIndex="-1"/>
   </ProjectSession>
-  <SkipCheckLCLInterfaces Value="True"/>
 </CONFIG>
