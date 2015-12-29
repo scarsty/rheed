@@ -1,91 +1,98 @@
 object Form5: TForm5
   Left = 362
+  Height = 234
   Top = 215
+  Width = 286
   BorderStyle = bsDialog
   Caption = '内部参数'
   ClientHeight = 234
   ClientWidth = 286
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
-  Font.Style = []
-  PixelsPerInch = 96
+  LCLVersion = '1.6.0.1'
   object GroupBox1: TGroupBox
     Left = 16
+    Height = 57
     Top = 152
     Width = 241
-    Height = 57
+    ClientHeight = 39
+    ClientWidth = 237
     TabOrder = 0
     object BitBtn1: TBitBtn
       Left = 22
+      Height = 25
       Top = 2
       Width = 75
-      Height = 25
       Caption = '确定'
-      TabOrder = 0
       OnClick = BitBtn1Click
+      TabOrder = 0
     end
     object BitBtn2: TBitBtn
       Left = 134
+      Height = 25
       Top = 2
       Width = 75
-      Height = 25
       Caption = '取消'
-      TabOrder = 1
       OnClick = BitBtn2Click
+      TabOrder = 1
     end
   end
   object GroupBox2: TGroupBox
     Left = 16
+    Height = 129
     Top = 16
     Width = 241
-    Height = 129
     Caption = '长度单位为mm'
+    ClientHeight = 111
+    ClientWidth = 237
     TabOrder = 1
     object Label1: TLabel
       Left = 22
+      Height = 13
       Top = 14
       Width = 99
-      Height = 13
       Caption = '模拟的原子数量     '
+      ParentColor = False
     end
     object Label2: TLabel
       Left = 22
+      Height = 13
       Top = 46
       Width = 99
-      Height = 13
       Caption = '样品到屏幕距离     '
+      ParentColor = False
     end
     object Label3: TLabel
       Left = 22
+      Height = 13
       Top = 78
       Width = 99
-      Height = 13
       Caption = '屏幕的半宽和高     '
+      ParentColor = False
     end
     object Edit1: TEdit
       Left = 142
+      Height = 21
       Top = 10
       Width = 49
-      Height = 21
       TabOrder = 0
       Text = '16'
     end
     object Edit2: TEdit
       Left = 142
+      Height = 21
       Top = 42
       Width = 49
-      Height = 21
       TabOrder = 1
       Text = '500'
     end
     object Edit3: TEdit
       Left = 142
+      Height = 21
       Top = 74
       Width = 49
-      Height = 21
       TabOrder = 2
       Text = '250'
     end

@@ -1,38 +1,38 @@
 object Form1: TForm1
   Left = 267
+  Height = 423
   Top = 199
+  Width = 704
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'RHEED'
-  ClientHeight = 423
+  ClientHeight = 403
   ClientWidth = 704
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
-  Font.Style = []
   Menu = MainMenu1
   OnShow = OnShow
-  PixelsPerInch = 96
+  LCLVersion = '1.6.0.1'
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 404
+    Height = 22
+    Top = 381
     Width = 704
-    Height = 19
-    Panels = <
+    Panels = <    
       item
         Width = 110
-      end
+      end    
       item
         Width = 110
-      end
+      end    
       item
         Width = 150
-      end
+      end    
       item
         Width = 100
-      end
+      end    
       item
         Width = 50
       end>
@@ -40,25 +40,28 @@ object Form1: TForm1
   end
   object Panel1: TPanel
     Left = 0
+    Height = 381
     Top = 0
     Width = 704
-    Height = 404
     Align = alClient
     BevelInner = bvLowered
+    ClientHeight = 381
+    ClientWidth = 704
     Color = clWhite
+    ParentColor = False
     TabOrder = 1
     object Image1: TImage
-      Left = 0
-      Top = 0
+      Left = 2
+      Height = 377
+      Top = 2
       Width = 700
-      Height = 400
       Align = alClient
       OnMouseMove = Image1MouseMove
     end
   end
   object MainMenu1: TMainMenu
-    Left = 608
-    Top = 8
+    left = 608
+    top = 8
     object N1: TMenuItem
       Caption = '选项'
       object spin1: TMenuItem
@@ -112,7 +115,7 @@ object Form1: TForm1
     end
   end
   object SavePictureDialog1: TSavePictureDialog
-    Left = 568
-    Top = 8
+    left = 568
+    top = 8
   end
 end

@@ -1,92 +1,89 @@
-object Form2: TForm2
-  Left = 231
-  Top = 185
+object Form3: TForm3
+  Left = 169
+  Height = 226
+  Top = 183
+  Width = 326
   BorderStyle = bsDialog
-  Caption = '点阵参数'
-  ClientHeight = 272
-  ClientWidth = 319
+  Caption = '实验参数'
+  ClientHeight = 226
+  ClientWidth = 326
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
-  Font.Style = []
-  PixelsPerInch = 96
+  LCLVersion = '1.6.0.1'
   object GroupBox1: TGroupBox
-    Left = 24
-    Top = 24
-    Width = 257
-    Height = 137
-    Caption = '二维点阵描述'
+    Left = 16
+    Height = 105
+    Top = 16
+    Width = 281
+    Caption = '电子束能量及入射角度'
+    ClientHeight = 87
+    ClientWidth = 277
     TabOrder = 0
     object Label1: TLabel
-      Left = 22
+      Left = 14
+      Height = 13
       Top = 22
       Width = 60
-      Height = 13
-      Caption = '基矢长度    '
+      Caption = '电子能量    '
+      ParentColor = False
     end
     object Label2: TLabel
-      Left = 22
-      Top = 58
-      Width = 75
+      Left = 14
       Height = 13
-      Caption = '基矢间夹角     '
+      Top = 54
+      Width = 60
+      Caption = '入射角度    '
+      ParentColor = False
     end
     object Label3: TLabel
-      Left = 134
-      Top = 58
-      Width = 87
+      Left = 142
       Height = 13
-      Caption = '第一基矢幅角     '
+      Top = 54
+      Width = 60
+      Caption = '偏转角度    '
+      ParentColor = False
     end
     object Edit1: TEdit
-      Left = 110
-      Top = 18
-      Width = 49
+      Left = 86
       Height = 21
+      Top = 18
+      Width = 41
       TabOrder = 0
-      Text = '.25564'
-    end
-    object Edit2: TEdit
-      Left = 174
-      Top = 18
-      Width = 49
-      Height = 21
-      TabOrder = 1
-      Text = '.25564'
+      Text = '1e4'
     end
     object Edit3: TEdit
-      Left = 22
-      Top = 82
-      Width = 89
+      Left = 86
       Height = 21
-      TabOrder = 2
-      Text = '90'
+      Top = 50
+      Width = 41
+      TabOrder = 1
+      Text = '1'
     end
-    object Edit4: TEdit
-      Left = 134
-      Top = 82
-      Width = 89
+    object Edit2: TEdit
+      Left = 214
       Height = 21
-      TabOrder = 3
+      Top = 50
+      Width = 41
+      TabOrder = 2
       Text = '0'
     end
   end
   object GroupBox2: TGroupBox
-    Left = 24
-    Top = 176
-    Width = 257
+    Left = 16
     Height = 65
+    Top = 136
+    Width = 281
+    ClientHeight = 47
+    ClientWidth = 277
     TabOrder = 1
     object BitBtn1: TBitBtn
       Left = 22
-      Top = 10
-      Width = 89
       Height = 25
+      Top = 10
+      Width = 97
       Caption = '确定'
-      TabOrder = 0
-      OnClick = BitBtn1Click
       Glyph.Data = {
         76010000424D7601000000000000760000002800000020000000100000000100
         04000000000000010000120B0000120B00001000000000000000000000000000
@@ -99,17 +96,18 @@ object Form2: TForm2
         55557775555777FF5555555555599905555555555557777F5555555555559905
         555555555555777FF5555555555559905555555555555777FF55555555555579
         05555555555555777FF5555555555557905555555555555777FF555555555555
-        5990555555555555577755555555555555555555555555555555}
+        5990555555555555577755555555555555555555555555555555
+      }
       NumGlyphs = 2
+      OnClick = BitBtn1Click
+      TabOrder = 0
     end
     object BitBtn2: TBitBtn
-      Left = 134
-      Top = 10
-      Width = 89
+      Left = 158
       Height = 25
+      Top = 10
+      Width = 97
       Caption = '取消'
-      TabOrder = 1
-      OnClick = BitBtn2Click
       Glyph.Data = {
         76010000424D7601000000000000760000002800000020000000100000000100
         04000000000000010000130B0000130B00001000000000000000000000000000
@@ -122,8 +120,11 @@ object Form2: TForm2
         399377F333377FF3377F993333101933399377F333777FFF377F993333000993
         399377FF3377737FF7733993330009993933373FF3777377F7F3399933000399
         99333773FF777F777733339993707339933333773FF7FFF77333333999999999
-        3333333777333777333333333999993333333333377777333333}
+        3333333777333777333333333999993333333333377777333333
+      }
       NumGlyphs = 2
+      OnClick = BitBtn2Click
+      TabOrder = 1
     end
   end
 end

@@ -8,53 +8,88 @@
       <Unit0>
         <Filename Value="rheed.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <CursorPos X="10" Y="10"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
       <Unit1>
-        <Filename Value="Unit1.pas"/>
+        <Filename Value="mainform1.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="15"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit1>
       <Unit2>
-        <Filename Value="Unit2.pas"/>
+        <Filename Value="gridset.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="21" Y="8"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
       <Unit3>
-        <Filename Value="Unit3.pas"/>
+        <Filename Value="experimentset.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
         <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="9"/>
+        <CursorPos X="12" Y="48"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit3>
       <Unit4>
-        <Filename Value="Unit4.pas"/>
+        <Filename Value="welcome.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
         <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="22"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit4>
       <Unit5>
-        <Filename Value="Unit5.pas"/>
+        <Filename Value="setting.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form5"/>
         <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="33"/>
+        <CursorPos X="12" Y="48"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit5>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="rheed.lpr"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rheed.lpr"/>
+        <Caret Line="7" Column="3"/>
+      </Position2>
+    </JumpHistory>
   </ProjectSession>
   <SkipCheckLCLInterfaces Value="True"/>
 </CONFIG>

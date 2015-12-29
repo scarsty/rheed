@@ -43,29 +43,39 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="Unit1.pas"/>
+        <Filename Value="mainform1.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit1>
       <Unit2>
-        <Filename Value="Unit2.pas"/>
+        <Filename Value="gridset.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit2>
       <Unit3>
-        <Filename Value="Unit3.pas"/>
+        <Filename Value="experimentset.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit3>
       <Unit4>
-        <Filename Value="Unit4.pas"/>
+        <Filename Value="welcome.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit4>
       <Unit5>
-        <Filename Value="Unit5.pas"/>
+        <Filename Value="setting.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form5"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit5>
     </Units>
   </ProjectOptions>

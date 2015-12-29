@@ -1,4 +1,4 @@
-unit Unit2;
+unit setting;
 
 {$MODE Delphi}
 
@@ -9,20 +9,19 @@ uses
   Dialogs, StdCtrls, Buttons;
 
 type
-  TForm2 = class(TForm)
+  TForm5 = class(TForm)
     GroupBox1: TGroupBox;
-    GroupBox2: TGroupBox;
-    Edit1: TEdit;
-    Edit2: TEdit;
-    Edit3: TEdit;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
-    Edit4: TEdit;
+    GroupBox2: TGroupBox;
+    Edit1: TEdit;
     Label1: TLabel;
+    Edit2: TEdit;
     Label2: TLabel;
     Label3: TLabel;
-    procedure BitBtn1Click(Sender: TObject);
+    Edit3: TEdit;
     procedure BitBtn2Click(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,24 +29,23 @@ type
   end;
 
 var
-  Form2: TForm2;
+  Form5: TForm5;
 
 implementation
 
 {$R *.lfm}
-uses Unit1;
+uses mainform1;
 
-procedure TForm2.BitBtn2Click(Sender: TObject);
+procedure TForm5.BitBtn2Click(Sender: TObject);
 begin
   Close;
 end;
 
-procedure TForm2.BitBtn1Click(Sender: TObject);
+procedure TForm5.BitBtn1Click(Sender: TObject);
 begin
-  Unit1.a := strtofloat(Edit1.Text);
-  Unit1.b := strtofloat(Edit2.Text);
-  Unit1.alpha := strtofloat(Edit3.Text)*pi/180;
-  Unit1.beta := strtofloat(Edit4.Text)*pi/180;
+  MainForm1.n := strtoint(edit1.Text);
+  MainForm1.len := strtofloat(edit2.Text);
+  MainForm1.ht := strtofloat(edit3.Text);
   Close;
 end;
 

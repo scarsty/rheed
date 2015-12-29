@@ -1,4 +1,4 @@
-unit Unit1;
+unit mainform1;
 
 {$MODE Delphi}
 
@@ -59,7 +59,7 @@ var
 
 implementation
 
-uses Unit2, Unit3, Unit4, Unit5;
+uses gridset, experimentset, welcome, setting;
 
 {$R *.lfm}
 

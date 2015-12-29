@@ -1,4 +1,4 @@
-unit Unit3;
+unit gridset;
 
 {$MODE Delphi}
 
@@ -9,19 +9,20 @@ uses
   Dialogs, StdCtrls, Buttons;
 
 type
-  TForm3 = class(TForm)
+  TForm2 = class(TForm)
     GroupBox1: TGroupBox;
-    Edit1: TEdit;
-    Edit3: TEdit;
     GroupBox2: TGroupBox;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
+    Edit4: TEdit;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
-    Edit2: TEdit;
-    procedure BitBtn2Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,23 +30,24 @@ type
   end;
 
 var
-  Form3: TForm3;
+  Form2: TForm2;
 
 implementation
 
 {$R *.lfm}
-uses Unit1;
+uses mainform1;
 
-procedure TForm3.BitBtn2Click(Sender: TObject);
+procedure TForm2.BitBtn2Click(Sender: TObject);
 begin
   Close;
 end;
 
-procedure TForm3.BitBtn1Click(Sender: TObject);
+procedure TForm2.BitBtn1Click(Sender: TObject);
 begin
-  Unit1.E := strtofloat(Edit1.Text);
-  Unit1.gama := strtofloat(Edit2.Text)*pi/180;
-  Unit1.Th := strtofloat(Edit3.Text)*pi/180;
+  mainform1.a := strtofloat(Edit1.Text);
+  mainform1.b := strtofloat(Edit2.Text);
+  mainform1.alpha := strtofloat(Edit3.Text)*pi/180;
+  mainform1.beta := strtofloat(Edit4.Text)*pi/180;
   Close;
 end;
 
