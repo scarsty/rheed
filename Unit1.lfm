@@ -13,10 +13,8 @@ object Form1: TForm1
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   Menu = MainMenu1
-  OldCreateOrder = False
   OnShow = OnShow
   PixelsPerInch = 96
-  TextHeight = 13
   object StatusBar1: TStatusBar
     Left = 0
     Top = 404
@@ -38,6 +36,7 @@ object Form1: TForm1
       item
         Width = 50
       end>
+    SimplePanel = False
   end
   object Panel1: TPanel
     Left = 0
@@ -49,8 +48,8 @@ object Form1: TForm1
     Color = clWhite
     TabOrder = 1
     object Image1: TImage
-      Left = 2
-      Top = 2
+      Left = 0
+      Top = 0
       Width = 700
       Height = 400
       Align = alClient
@@ -61,53 +60,53 @@ object Form1: TForm1
     Left = 608
     Top = 8
     object N1: TMenuItem
-      Caption = #36873#39033
+      Caption = '选项'
       object spin1: TMenuItem
         Caption = 'spin'
         OnClick = spin1Click
       end
       object N8: TMenuItem
-        Caption = #24320#22987
+        Caption = '开始'
         OnClick = N8Click
       end
       object N11: TMenuItem
-        Caption = #28165#31354
+        Caption = '清空'
         OnClick = N11Click
       end
       object N9: TMenuItem
         Caption = '-'
       end
       object N3: TMenuItem
-        Caption = #28857#38453#21442#25968'...'
+        Caption = '点阵参数...'
         OnClick = N3Click
       end
       object N4: TMenuItem
-        Caption = #23454#39564#26465#20214'...'
+        Caption = '实验条件...'
         OnClick = N4Click
       end
       object N6: TMenuItem
-        Caption = #20869#37096#21442#25968'...'
+        Caption = '内部参数...'
         OnClick = N6Click
       end
       object N13: TMenuItem
         Caption = '-'
       end
       object N12: TMenuItem
-        Caption = #23384#20648#22270#20687'...'
+        Caption = '存储图像...'
         OnClick = N12Click
       end
       object N10: TMenuItem
         Caption = '-'
       end
       object N7: TMenuItem
-        Caption = #36864#20986
+        Caption = '退出'
         OnClick = N7Click
       end
     end
     object N2: TMenuItem
-      Caption = #24110#21161
+      Caption = '帮助'
       object N5: TMenuItem
-        Caption = #20851#20110'...'
+        Caption = '关于...'
         OnClick = N5Click
       end
     end

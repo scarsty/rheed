@@ -1,0 +1,5 @@
+*.ppu
+*.o
+ConverterBackup/
+*.txt
+*.or

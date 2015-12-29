@@ -1,9 +1,11 @@
 unit Unit4;
 
+{$MODE Delphi}
+
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  LCLIntf, LCLType, LMessages, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ExtCtrls;
 
 type
@@ -23,7 +25,7 @@ var
 
 implementation
 
-{$R *.dfm}
+{$R *.lfm}
 
 procedure TForm4.Timer1Timer(Sender: TObject);
 begin

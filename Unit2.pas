@@ -1,9 +1,11 @@
 unit Unit2;
 
+{$MODE Delphi}
+
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  LCLIntf, LCLType, LMessages, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, Buttons;
 
 type
@@ -32,7 +34,7 @@ var
 
 implementation
 
-{$R *.dfm}
+{$R *.lfm}
 uses Unit1;
 
 procedure TForm2.BitBtn2Click(Sender: TObject);

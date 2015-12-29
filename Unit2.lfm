@@ -2,7 +2,7 @@ object Form2: TForm2
   Left = 231
   Top = 185
   BorderStyle = bsDialog
-  Caption = #28857#38453#21442#25968
+  Caption = '点阵参数'
   ClientHeight = 272
   ClientWidth = 319
   Color = clBtnFace
@@ -11,64 +11,62 @@ object Form2: TForm2
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
-  OldCreateOrder = False
   PixelsPerInch = 96
-  TextHeight = 13
   object GroupBox1: TGroupBox
     Left = 24
     Top = 24
     Width = 257
     Height = 137
-    Caption = #20108#32500#28857#38453#25551#36848
+    Caption = '二维点阵描述'
     TabOrder = 0
     object Label1: TLabel
-      Left = 24
-      Top = 36
+      Left = 22
+      Top = 22
       Width = 60
       Height = 13
-      Caption = #22522#30690#38271#24230'    '
+      Caption = '基矢长度    '
     end
     object Label2: TLabel
-      Left = 24
-      Top = 72
+      Left = 22
+      Top = 58
       Width = 75
       Height = 13
-      Caption = #22522#30690#38388#22841#35282'     '
+      Caption = '基矢间夹角     '
     end
     object Label3: TLabel
-      Left = 136
-      Top = 72
+      Left = 134
+      Top = 58
       Width = 87
       Height = 13
-      Caption = #31532#19968#22522#30690#24133#35282'     '
+      Caption = '第一基矢幅角     '
     end
     object Edit1: TEdit
-      Left = 112
-      Top = 32
+      Left = 110
+      Top = 18
       Width = 49
       Height = 21
       TabOrder = 0
       Text = '.25564'
     end
     object Edit2: TEdit
-      Left = 176
-      Top = 32
+      Left = 174
+      Top = 18
       Width = 49
       Height = 21
       TabOrder = 1
       Text = '.25564'
     end
     object Edit3: TEdit
-      Left = 24
-      Top = 96
+      Left = 22
+      Top = 82
       Width = 89
       Height = 21
       TabOrder = 2
       Text = '90'
     end
     object Edit4: TEdit
-      Left = 136
-      Top = 96
+      Left = 134
+      Top = 82
       Width = 89
       Height = 21
       TabOrder = 3
@@ -82,11 +80,11 @@ object Form2: TForm2
     Height = 65
     TabOrder = 1
     object BitBtn1: TBitBtn
-      Left = 24
-      Top = 24
+      Left = 22
+      Top = 10
       Width = 89
       Height = 25
-      Caption = #30830#23450
+      Caption = '确定'
       TabOrder = 0
       OnClick = BitBtn1Click
       Glyph.Data = {
@@ -105,11 +103,11 @@ object Form2: TForm2
       NumGlyphs = 2
     end
     object BitBtn2: TBitBtn
-      Left = 136
-      Top = 24
+      Left = 134
+      Top = 10
       Width = 89
       Height = 25
-      Caption = #21462#28040
+      Caption = '取消'
       TabOrder = 1
       OnClick = BitBtn2Click
       Glyph.Data = {

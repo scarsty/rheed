@@ -1,9 +1,11 @@
 unit Unit1;
 
+{$MODE Delphi}
+
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  LCLIntf, LCLType, LMessages, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Menus, ComCtrls, ExtCtrls, Math, ExtDlgs;
 
 type
@@ -59,7 +61,7 @@ implementation
 
 uses Unit2, Unit3, Unit4, Unit5;
 
-{$R *.dfm}
+{$R *.lfm}
 
 procedure TForm1.N3Click(Sender: TObject);
 begin
@@ -134,10 +136,10 @@ begin
     filewrite(h,str[1],length(str));
   end;
   fileclose(h);
-  StatusBar1.Panels[0].Text := ' µç×ÓÄÜÁ¿'+floattostr(E)+'eV';
-  StatusBar1.Panels[1].Text := ' ÈëÉä½Ç'+floattostr(Th/pi*180)+'¶È';
-  StatusBar1.Panels[2].Text := ' ÑùÆ·µ½ÆÁÄ»¾àÀë'+floattostr(len)+'mm';
-  StatusBar1.Panels[3].Text := ' Ô­×ÓµãÊı'+inttostr(n*n);
+  StatusBar1.Panels[0].Text := ' ç”µå­èƒ½é‡'+floattostr(E)+'eV';
+  StatusBar1.Panels[1].Text := ' å…¥å°„è§’'+floattostr(Th/pi*180)+'åº¦';
+  StatusBar1.Panels[2].Text := ' æ ·å“åˆ°å±å¹•è·ç¦»'+floattostr(len)+'mm';
+  StatusBar1.Panels[3].Text := ' åŸå­ç‚¹æ•°'+inttostr(n*n);
   for k := 0 to 199 do
   for l := 0 to 99 do
   begin
